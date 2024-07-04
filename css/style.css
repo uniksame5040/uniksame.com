@@ -1,0 +1,269 @@
+.welcome-slide{
+  align-items: center;
+  /* text-align: center; */
+  display: flex;
+  padding-left:50px;
+  padding-right:50px;
+  background: linear-gradient(to right, #DAE2F8, #a0f3e8);
+}
+.welcome-slide div h1{
+  font-weight: bold;
+  color:rgb(62, 155, 192);
+  margin: 0px;
+
+}
+#unik{
+  display: none;
+}
+.welcome-slide div h3{
+  font-weight: bold;
+  color: rgb(65, 64, 64);
+  margin: 0px;
+}
+.welcome-slide div p{
+  font-size: 16px;
+  color: rgb(136, 134, 134);
+  margin-top: 6px;
+  padding-bottom: 10px;
+}
+
+.welcome-slide div{
+    width: 50%;
+     margin:5px 20px 5px 20px;
+  }
+.welcome-slide  img{
+    height: 380px;
+  }
+.mid-line{
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 5px;
+}
+
+.welcome-slide div a{
+  text-decoration: none;
+  padding: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: small;
+}
+.welcome-slide div a:nth-child(even){
+  background: rgb(26, 181, 243); 
+  color: white;
+}
+.welcome-slide div a:nth-child(odd){
+  background: white; 
+  color:rgb(73, 72, 72);
+}
+
+.welcome-slide div a:hover{
+  background: rgb(62, 155, 192); 
+  color: white;
+}
+/* .why-choose{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding-left:50px;
+    background: linear-gradient(to right, #DAE2F8, #D6A4A4);  
+  }
+  .why-choose div h5{
+      background: linear-gradient(to right, #E3F4F4, #F8E8EE); 
+      padding:5px;
+      border-radius:5px;
+  }
+  .why-choose div{
+    width: 50%;
+     margin:0px 5px 0px 5px;
+  }
+  .why-choose img{
+    height: 400px;
+  } */
+
+
+
+ .start-learning{
+  text-align: center;
+  align-items: center;
+ }
+ .start-learning div{
+  display: inline-flex;
+ }
+
+ .start-learning h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 5px;
+ }
+ .start-learning h2{
+  font-weight: bold;
+  margin: 5px;
+  margin-top: 20px;
+ }
+
+.start-learning p{
+  font-size: medium;
+  margin: 0;
+  color: rgb(136, 134, 134);
+  margin-bottom: 10px;
+}
+.start-learning div #learning{
+  color: rgb(68, 192, 192);
+}
+.top-courses{
+  background: linear-gradient(to bottom, #f3f9fa, #c9f0f7);  
+  padding: 30px;
+  /* text-align: center; */
+}
+.top-courses h1{
+  font-size: 50px;
+  font-weight:bold;
+}
+.top-courses p{
+  font-size: medium;
+  color: rgb(136, 134, 134);
+}
+
+.course-container{
+  display: flex;
+}
+
+.course-items{
+  display: flex;
+  background: white;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+.top-courses img{
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.course-items p{
+  margin: 0;
+  color: rgb(136, 134, 134);
+}
+.course-items h3{
+  margin: 0;
+}
+.course-items div h3{
+  font-weight: bold;
+}
+
+section{
+  display: flex;
+  margin: 50px;
+}
+
+.sec-course-card{
+  width: 50%;
+  /* text-align: center; */
+  margin:10px;
+  border-radius: 10px;
+  border: 1px solid #d1b4f5;
+  /* background: linear-gradient(to left,#DCBFFF,#CDF5FD); */
+}
+.sec-course-card img{
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.rec-course{
+  padding: 20px;
+}
+
+.rec-course h3{
+  margin: 0;
+  font-weight: bold;
+  color: #464646;
+}
+.rec-course p{
+  /* margin: 0; */
+  font-size: medium;
+  color: rgb(136, 134, 134);
+}
+
+.rec-course a{
+  text-decoration: none;
+  background-color: rgb(63, 180, 180);
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top:16px ;
+}
+
+@media screen and (max-width: 768px) {
+
+  .welcome-slide div{
+    padding: 10px;
+  }
+  .wd-img, .mid-line{
+    display: none;
+  }
+  .welcome-slide{
+    text-align: center;
+    padding-left:0;
+  }
+  #unik{
+    display: block;
+  }
+  #unikm{
+    display: none;
+  }
+  .welcome-slide h1{
+    font-size: 26px;
+  }
+  .welcome-slide h3{
+    font-size: 18px;
+  }
+  .welcome-slide div p{
+    font-size:small;
+  }
+  .welcome-slide div{
+    width: 100%;
+     margin:0px 5px 0px 50px;
+  }
+  .welcome-slide div a{
+    padding: 5px;
+    margin-bottom:10px ;
+  }
+
+  .start-learning h1{
+    font-size: 30px;
+   }
+   .start-learning h2{
+    font-size: 24px;
+   }
+   .start-learning p{
+    font-size: small;
+   }
+
+  .course-container{
+    flex-direction: column;
+  }
+
+  .course-items{
+    width: 100%;
+  }
+
+  section{
+    flex-direction: column;
+    margin: 25px;
+  }
+  .sec-course-card{
+    width: 100%;
+  }
+
+ }

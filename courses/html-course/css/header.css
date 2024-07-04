@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+header{
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* font-size: 16px; */
+}
+.header{
+    display: flex;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.header div .logo{
+    width: 120px;
+    height: 120px;
+    margin-top: -35px;
+    margin-bottom: -35px;
+}
+
+.home-logo{
+    display: none;
+    /* position: relative; */
+} 
+.home-logo ul{
+    display: none;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.home-logo ul li{
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+.home-logo ul li:hover{
+    background-color: rgb(32, 209, 209);
+    color: white;
+}
+.home-logo ul li a{ 
+    text-decoration: none;
+    padding: 10px;
+}
+.home-logo:hover ul{
+    display: block;
+    position: absolute;
+    right: 0;
+}
+.bar-icon{
+    margin-left: auto;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+.header nav ul li a{
+    padding: 10px;
+    /* margin-left: auto; */
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 17px;
+}
+
+.nav-holder{
+    margin-left: auto;
+}
+
+.header .login a{
+    background-color: rgb(32, 209, 209);
+    border-radius: 5px;
+    padding:8px;
+    color: white;
+    margin: 5px;
+}
+i{
+    color: rgb(31, 182, 182);
+}
+
+.header1{
+    padding: 0 50px 0 50px;
+    display: flex;
+    align-items: center;
+    color: darkgray;
+    border-top:1px solid rgb(212, 211, 211);
+}
+
+
+
+.nav-holder1{
+    margin-left: auto;
+}
+
+.nav-holder1 nav ul li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    color:rgb(31, 182, 182);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1050px) {
+  
+ }
+
+ @media screen and (max-width: 768px) {
+    .header1{
+        padding: 5px 15px 5px 15px;
+    }
+  .nav-holder,.nav-holder1{
+    display: none;
+  }
+
+ .home-logo{
+    display: block;
+    margin-left: auto;
+  }
+  .bar-icon{
+    display: none;
+  }
+ }
